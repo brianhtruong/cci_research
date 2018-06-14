@@ -5,6 +5,6 @@
 #### HOW TO QUANTIFY (GENERAL STEPS)
 1. Import into ZCountyExtracts.sqlite the county of interest from ZMainBldg.sqlite with SQL
 2. Group unique record among different years of a parcel for the newest record using ImportParcelID and LoadID
-3. Add Subsidized column to county dataset and save dataset (from utils)
-4. Commit initial data cleaning process for city in county of interest (from utils)
+3. Add Subsidized column to county dataset and save dataset (using my utils package)
+4. Commit initial data cleaning process for city in county of interest (using my utils package)
 5. Apply quantification procedures based on stipulations of Rent Control and JCE policies
