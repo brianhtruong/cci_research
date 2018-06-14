@@ -18,7 +18,7 @@
 6. Use the terminal and cd into / then /scratch/public/account_name, and type sqlite3 ZMainBldg.sqlite
 7. Apply SQL query to create a new table group based on county of interest
 8. Link this new county table into ZCountyExtracts.sqlite
-9. Group unique record among different years of a parcel for the newest record using ImportParcelID and LoadID
+9. Using SQLite again on this county table, group unique record among different years of a parcel for the newest record using ImportParcelID and LoadID
 10. Apply euclidean algorithm in order to identify subsidized parcels from the CHPC data to the Zillow data using my utils package
 11. Apply my data cleaning function from my utils package. This will remove vacant properties, fix units to appropriate/estimated values, select residential buildings, and more. This will give more accurate unit approximations
 12. Apply quantification procedures based on stipulations of Rent Control and JCE policies from the JC and RC inventory or using research
