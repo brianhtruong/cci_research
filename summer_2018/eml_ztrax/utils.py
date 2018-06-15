@@ -63,7 +63,7 @@ def clean_city(county, city):
     df = df[df['PropertyLandUseStndCode'].isin(R)]
     print(str(round(progress[1], 2))+'%', 'current number:', df.NoOfUnits.sum())
     # Remove vacant
-    df = df[~df['PropertyCountyLandUseDescription'].str.contains('VAC')]
+    df = df[df['PropertyCountyLandUseDescription'].str.contains('VAC') == False]
     print(str(round(progress[2], 2))+'%', 'current number:', df.NoOfUnits.sum())
     medians = df.groupby('PropertyLandUseStndCode')['NoOfUnits'].median()
     import math
