@@ -22,3 +22,6 @@
 10. Apply euclidean algorithm in order to identify subsidized parcels from the CHPC data to the Zillow data using my utils package
 11. Apply my data cleaning function from my utils package. This will remove vacant properties, fix units to appropriate/estimated values, select residential buildings, and more. This will give more accurate unit approximations
 12. Apply quantification procedures based on stipulations of Rent Control and JCE policies from the JC and RC inventory or using research
+
+Contact me for information on the process of the creation of ZMainBldg.sqlite or anything else at
+brian-truong@berkeley.edu
